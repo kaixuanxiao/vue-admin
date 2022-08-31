@@ -1,0 +1,23 @@
+building: 
+  image: node:latest
+  stage: build
+  script:
+    - npm install --registry=https://registry.npm.taobao.org --progress=false --no-optional
+    - npm run docs:build
+  artifacts:
+    expire_in: 3 days
+    paths:
+      - dist
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  stage: deploy
+  script:
+    - rm -rf public/*
+  artifacts:
+    expire_in: 3 days
+    paths:
+      - public

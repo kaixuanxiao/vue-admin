@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "394752",
+      "name": "iconfont-arrowdown",
+      "font_class": "iconfontarrowdown",
+      "unicode": "e60e",
+      "unicode_decimal": 58894
+    },
+    {
+      "icon_id": "6253880",
+      "name": "iconfont icon-jingga",
+      "font_class": "iconfonticon-jingga",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    }
+  ]
+}

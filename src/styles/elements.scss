@@ -1,0 +1,6 @@
+@import './variables.scss';
+
+.gd-drawer {
+  top: $navBarHeight !important;
+  height: calc(100% - $navBarHeight) !important;
+}
